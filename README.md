@@ -14,10 +14,10 @@ A standalone ARM64 port of Fabian Greffrath's [Woof!](https://github.com) (16.0.
 3. *(Optional)* Place PWAD and `.deh` files inside `/Roms/DOOM (DOOM)/.mods/` and create a `.doom` launcher script in `/Roms/DOOM (DOOM)/`:
    ```sh
    #!/bin/sh
-   WOOF="\$1"
+   WOOF="$1"
    shift
    WADDIR="/mnt/SDCARD/Roms/DOOM (DOOM)"
-   "WOOF" -iwad "WADDIR/DOOM2.WAD" -file "WADDIR/.mods/mymod.wad" "@"
+   "$WOOF" -iwad "$WADDIR/DOOM2.WAD" -file "$WADDIR/.mods/mymod.wad" "$@"
    ```
 
 ## Default Controls
