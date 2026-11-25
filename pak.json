@@ -1,9 +1,11 @@
 {
-  "name": "Woof! (DOOM)",
+  "name": "DOOM",
   "type": "EMU",
   "description": "Woof! 16.0.0 Boom/MBF/ID24-compatible Doom source port for NextUI with 4:3 software rendering, portrait panel rotation, dual-stick controls, .doom mod launchers, and Power-button quicksave/auto-resume.",
   "author": "Overflask",
   "version": "v1.0.0",
+  "repo": "https://github.com",
+  "release_filename": "DOOM.pak.zip",
   "platforms": [
     "h700",
     "tg5040",
