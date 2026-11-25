@@ -1,0 +1,5 @@
+#!/bin/sh
+WOOF="$1"
+shift
+WADDIR="/mnt/SDCARD/Roms/DOOM (DOOM)"
+"$WOOF" -iwad "$WADDIR/DOOM2.WAD" -file "$WADDIR/.mods/mymod.wad" "$@"
